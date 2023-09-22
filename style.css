@@ -122,6 +122,14 @@ section {
 }
 
 /* Header Styles */
+@media (max-width: 480px) {
+    /* Styles for screens up to 480px wide */
+
+    header {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+}
 
 header {
     display: flex;
